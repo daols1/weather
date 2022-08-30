@@ -1,0 +1,16 @@
+.suggest{
+    border-top: 1px rgba(255, 255, 255, 0.397) solid;
+    border-bottom: 1px rgba(255, 255, 255, 0.397) solid;
+    margin: 20px 0px;
+    padding: 10px 0px 20px;
+}
+
+.suggest > li{
+    list-style: none;
+    padding: 5px ;
+}
+
+.sughead{
+    font-size: 25px;
+    margin: 5px 0px 15px;
+}

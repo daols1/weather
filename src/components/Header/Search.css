@@ -1,0 +1,25 @@
+.search{
+    display: flex;
+    flex-direction: row;
+}
+
+.searchbox{
+    background-color: rgba(255, 255, 255, 0.445);
+    border: none;
+    padding: 20px;
+    transition: all cubic-bezier(0.68, -0.55, 0.27, 1.55);
+    transition-delay: 2s;
+}
+
+.searchbox:focus{
+    background-image: linear-gradient(to left, rgba(255, 255, 255, 0.245), #fff);
+    outline: none;
+}
+
+.searchicon{
+    background-color: rgba(255, 255, 255, 0.445);
+    display: grid;
+    place-items: center;
+    padding: 20px;
+    border: 1px rgba(255, 255, 255, 0.445) solid;
+}
